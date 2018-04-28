@@ -144,6 +144,7 @@ Finally, create a new layout and a page based on it.
 `src/pages/index.html`:
 
 ```html
+<!-- The line below refers to "src/layouts/index.html", as specified in ".posthtmlrc" -->
 <extends src="index.html">
   <block name="title" type="prepend">Page title</block>
 
