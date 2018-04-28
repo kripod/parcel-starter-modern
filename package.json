@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "parcel src/pages/index.html",
+    "build": "parcel build src/pages/index.html",
+    "lint:es": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "lint:style": "stylelint \"src/**/*.scss\"",
+    "lint": "npm run lint:es && npm run lint:style",
+    "format": "prettier-eslint --write \"**/*.{js,json,scss,md}\""
+  },
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "babel-preset-env": "^1.6.1",
+    "bulma": "^0.7.1",
+    "modern-normalize": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.7.1",
+    "postcss-preset-env": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "prettier-eslint-cli": "^4.7.1",
+    "stylelint": "^9.2.0",
+    "stylelint-config-idiomatic-order": "^5.0.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.1.0"
+  }
+}

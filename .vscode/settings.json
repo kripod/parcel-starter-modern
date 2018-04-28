@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "javascript.format.enable": false,
+  "json.format.enable": false,
+  "files.associations": {
+    ".*rc": "json"
+  }
+}
