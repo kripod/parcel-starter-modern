@@ -1,6 +1,9 @@
 {
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
+  "javascript.validate.enable": false,
+  "css.validate": false,
+  "scss.validate": false,
   "files.associations": {
     ".*rc": "json"
   }
