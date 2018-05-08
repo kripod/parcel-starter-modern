@@ -5870,6 +5870,12 @@ stylelint-config-idiomatic-order@^5.0.0:
     stylelint-config-standard "^16.0.0"
     stylelint-order "^0.5.0"
 
+stylelint-config-prettier@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-3.2.0.tgz#af32b7845adeeddbf0a0bd642ace4ca1e68958e2"
+  dependencies:
+    stylelint "^9.1.1"
+
 stylelint-config-recommended-scss@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-3.2.0.tgz#5761be65e28b58fa6a4a628b71291e83e921d10f"
@@ -5947,7 +5953,7 @@ stylelint@^7.0.3, stylelint@^7.11.0:
     svg-tags "^1.0.0"
     table "^4.0.1"
 
-stylelint@^9.2.0:
+stylelint@^9.1.1, stylelint@^9.2.0:
   version "9.2.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-9.2.0.tgz#f77a82518106074c1a795e962fd780da2c8af43b"
   dependencies:
